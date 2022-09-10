@@ -14,7 +14,7 @@ household_power_consumption_2007_Feb <- filter(household_power_consumption_raw,g
 
 #PLOT
 # opens png file
-png(file="plot1.png",width=800, height=600)
+png(file="plot1.png",width=480, height=480)
 
 # write histogram
 hist(household_power_consumption_2007_Feb$Global_active_power, col = "red",main = "Global Active Power", xlab = "Global Active Power (kilowatts)")

@@ -27,7 +27,7 @@ household_power_consumption_2007_Feb <- select(household_power_consumption_2007_
 
 #PLOT
 # opens png file
-png(file="plot3.png",width=800, height=600)
+png(file="plot3.png",width=480, height=480)
 
 # plot 
 with(household_power_consumption_2007_Feb, {
